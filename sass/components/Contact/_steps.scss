@@ -1,0 +1,135 @@
+#steps {
+    h4 {
+        font-family: hoss-round, sans-serif;
+        src: url("https://use.typekit.net/tbd8ilh.css");
+        font-family: hoss-round, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+       
+        font-size: 30px;
+        color: #FFFFFF;
+        text-align: center; 
+        padding-top: 100px;
+    }
+
+    div {
+        width: 80%;
+        background: url(img/trait_steps.png);
+        background-position: center;
+        background-repeat: no-repeat; 
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+
+       article {
+            width: calc(80%/3);
+            height: 40vh;
+            background: url(img/ellipse.png);
+            background-position: bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center; 
+        }
+
+        article:nth-child(1) { 
+            img {
+                position: relative;
+                bottom: 90px;
+                left: 10px; 
+            }
+
+            p {
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/tbd8ilh.css");
+                font-family: hoss-round, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+
+                text-align: center;
+                position: relative;
+                bottom: 40px;
+                
+                width: 60%; 
+            }
+
+            h6 {
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/tbd8ilh.css");
+                font-family: hoss-round, sans-serif;
+                font-weight: 600;
+                color: #F0143E;
+                font-size: 20px;
+                position: relative;
+                bottom: 10px; 
+            }
+        }
+
+        article:nth-child(2) {
+            img {
+                position: relative;
+                bottom: 100px; 
+            }
+
+            p {
+                text-align: center;
+                position: relative;
+                bottom: 50px;
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/tbd8ilh.css");
+                font-family: hoss-round, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                width: 60%;
+            }
+
+            h6 {
+                color: #F0143E;
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/tbd8ilh.css");
+                font-family: hoss-round, sans-serif;
+                font-weight: 600;
+                font-size: 20px;
+                position: relative;
+                bottom: 20px;
+            }
+        }
+
+        article:nth-child(3) {
+
+            img {
+                position: relative;
+                bottom: 100px; 
+            }
+
+            p {
+                text-align: center;
+                position: relative;
+                bottom: 70px;
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/tbd8ilh.css");
+                font-family: hoss-round, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                width: 60%;
+            }
+
+            h6 {
+                color: #F0143E;
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/tbd8ilh.css");
+                font-family: hoss-round, sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                font-size: 20px;
+                position: relative;
+                bottom: 20px; 
+            }
+        }
+    }
+}

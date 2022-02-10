@@ -1,0 +1,61 @@
+#missions{
+    #trait_missions{
+        max-width: 40%;
+    }
+
+    h4 {
+        src: url("https://use.typekit.net/mph5npf.css");
+        font-family: omnes-semicond, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 32px;
+        color: white;
+        margin-bottom: 40px; 
+    }
+
+    #mission {
+        width: 70%;
+        display: flex;
+        justify-content: space-around; 
+        margin: 0 auto;
+    }
+
+    article {
+        border-radius: 20px;
+        width: 430px;
+        height: 225px;
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        background: white;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        box-shadow: 2px 5px 5px gray;
+        float: left; 
+        margin: 10px;
+
+        h5 {
+            text-decoration: none;
+            font-family: Omnes Boldery;
+            font-weight: bold;
+            font-size: 25px;
+            color: #F0143E;
+            text-decoration: none; 
+        }
+
+        p {
+            text-decoration: none;
+            font-family: hoss-round, sans-serif;
+            src: url("https://use.typekit.net/mph5npf.css");
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            color: #464646;
+            text-align: left;
+            text-decoration: none;
+            width: 80%; 
+        }
+    }
+
+}

@@ -1,0 +1,99 @@
+
+
+@import url("https://use.typekit.net/mph5npf.css");
+
+
+#homepage{
+    article {
+        width: calcul(50%/2);
+        height: 300px;
+        float: left; 
+        background: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center; 
+
+        h2, h3{
+            font-family: hoss-round, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 36px;
+            color: #FFFFFF;
+        }
+
+        h2{
+            font-family: hoss-round, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            src: url("https://use.typekit.net/mph5npf.css");
+            
+        }
+
+        
+
+        h3{
+            font-family: hoss-round, sans-serif;
+            src: url("https://use.typekit.net/mph5npf.css");
+            font-weight: 400;
+            font-style: normal;
+            width: 600px;
+        }
+
+        p {
+            font-family: hoss-round, sans-serif;
+            src: url("https://use.typekit.net/mph5npf.css");
+            font-weight: 400;
+            font-style: normal;
+            width: 600px;
+            font-size: 24px;
+            color: #FFFFFF;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            background: #F0143E;
+            border-radius: 10px;
+            color: #FFFFFF;
+            cursor: pointer; 
+            font-family: hoss-round, sans-serif;
+            src: url("https://use.typekit.net/mph5npf.css");
+            font-weight: 400;
+            border: none;
+
+            &:hover {
+                background: #FFFFFF;
+                color: red;
+            }
+        }
+
+    }
+
+    article:nth-child(odd) {
+        width: 55%;
+        flex-direction: column;
+        height: 90vh;
+        padding-left: 260px;
+        background: none;
+
+    }
+
+    article:nth-child(even) {
+        width: 45%;
+        background: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        align-items: flex-start;
+        height: 90vh;
+
+        img {
+            max-width: 70%;
+            margin-right: 100px;
+            
+        }
+    }
+}
+

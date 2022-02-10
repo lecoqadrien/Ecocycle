@@ -1,0 +1,64 @@
+
+@import "components/global";
+@import "components/header";
+@import "components/footer";
+
+@import "helpers/helpers";
+@import "helpers/reset";
+@import "helpers/typo";
+@import "helpers/variables";
+
+
+
+//Homepage
+
+@import "components/Accueil/homepage";
+
+//Missions
+
+@import "components/Accueil/missions";
+
+//Fonctionnement
+
+@import "components/Accueil/fonctionnement";
+
+//Pourquoi une application
+
+@import "components/Accueil/whyapp";
+
+//Challenge
+
+@import "components/Accueil/challenge";
+
+//Video
+@import "components/Accueil/video";
+
+//Partenaires
+
+@import "components/Accueil/partenaires";
+
+//Equipe
+
+//Funequipe
+
+@import "components/Equipe/funequipe";
+
+//Team
+
+@import "components/Equipe/team";
+
+//Contactez-nous
+//steps
+
+@import "components/Contact/steps";
+
+@import "components/Contact/informations";
+
+//Media Querie
+
+@import "components/Queries/querie";
+
+@import "components/Accueil/newsletter";
+
+
+

@@ -1,0 +1,26 @@
+#video{
+
+    #trait_video{
+        margin-left: 40px;
+    }
+    
+    h4 {
+        src: url("https://use.typekit.net/mph5npf.css");
+        font-family: omnes-semicond, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 42px;
+        padding-top: 50px;
+        padding-left: 50px;
+        color: #F0143E;
+        text-align: left; 
+    }
+
+    video {
+        width: 70%; 
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+}

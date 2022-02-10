@@ -1,0 +1,187 @@
+
+
+header #logo {
+    margin-top: 40px;
+    margin-left: 123px; 
+    float: left;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background:none;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    ul {
+        width: 80%;
+        height: 100%;
+        background:none;
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        
+        
+
+       
+
+        li:nth-child(1){
+            width:70%;
+           
+            background: none;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            align-content: center;
+            flex-direction: column;
+            float: left;
+
+            a{
+                padding-top: 44px;
+                height: 10px;
+                background-color: none;
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/mph5npf.css");
+                font-weight: 600;
+                font-style: normal;
+                
+            }
+            .trait_service{
+                
+                background-color: none;
+                margin-right: 50px;
+                opacity: 0;
+                
+
+            }
+
+            .apparition{
+                display: 1;
+            }
+            
+        }
+
+        li:nth-child(3){
+            width:30%;
+           
+            background: none;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            align-content: center;
+            flex-direction: column;
+            float: left;
+
+            a{
+                padding-top: 44px;
+                height: 10px;
+                background-color: none;
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/mph5npf.css");
+                font-weight: 600;
+                font-style: normal;
+                
+            }
+            .trait_equipe{
+                
+                background-color: none;
+                margin-right: 50px;
+                display: none;
+                
+            }
+
+            
+        }
+
+        li:nth-child(5){
+            width:50%;
+            background: none;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            align-content: flex-end;
+            flex-direction: column;
+            
+            
+        }
+
+        li {
+            text-decoration: none;
+            display: inline-block;
+            font-family: Hoss Round;
+            font-weight: bold;
+            font-size: 20px;
+            
+            
+           
+
+            a {
+                
+                padding: 30px;
+                text-decoration: none; 
+                color: #FFFFFF; 
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/mph5npf.css");
+                font-weight: 600;
+                font-style: normal;
+            }
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            background: #F0143E;
+            border: none;
+            border-radius: 10px; 
+            font-family: hoss-round, sans-serif;
+            src: url("https://use.typekit.net/mph5npf.css");
+            font-weight: 400;
+            font-weight: medium;
+            font-size: 20px;
+            color: #FFFFFF;
+            cursor:pointer;
+            margin: 0 auto;
+            float: right;
+            margin-top: 23px;
+
+            &:hover{
+                background: #FFFFFF;
+                color: #F0143E;
+                cursor:pointer;
+            }
+        }
+
+        
+    }
+
+    &.openMenu {
+        font-size: 2rem;
+        margin: 20px;
+        display: none;
+        cursor: pointer;
+        display: block;
+        margin-top: 30px;
+    }
+
+    &.closeMenu{
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+    }
+
+    .logo {
+        margin: 6px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    
+
+
+}
+
+div {
+    display: none;
+    margin-top: 30px;
+}

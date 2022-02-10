@@ -1,0 +1,296 @@
+#whyapp{
+    h4 {
+        src: url("https://use.typekit.net/mph5npf.css");
+        font-family: omnes-semicond, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 42px;
+        padding-top: 50px;
+        color: #F0143E;
+        text-align: center; 
+    }
+
+    #traitwhyapp{
+        width: 400px;
+        margin: 0 auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+         
+    }
+
+    #apps{
+        width: 100%;
+        height: 100vh;
+        background: url(img/fond_whyapp2.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+
+
+        #app {
+            width: 35%;
+            height: 100%;
+            background: none;
+            float: left;
+            margin-top: 140px;
+            
+    
+            img {
+                width: 10%;
+            }
+    
+            article:nth-child(1) {
+                width: 100%;
+                height: 30vh;
+                background: none;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start; 
+                margin-left: 30px;
+    
+                div {
+                    width: 100%;
+                    height: 100px;
+                    background: none;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-left: 20px;
+    
+                    span {
+                        font-family: hoss-round, sans-serif;
+                        src: url("https://use.typekit.net/mph5npf.css");
+                        font-weight: 700;
+                        font-style: normal;
+
+                        
+                        
+                        font-size: 25px;
+                        
+                        color: white; 
+                    }
+    
+                    p {
+                        font-family: hoss-round, sans-serif;
+                        src: url("https://use.typekit.net/mph5npf.css");
+                        font-weight: 400;
+                        font-style: normal;
+
+                        
+                        
+                        font-size: 16px;
+                        
+                        color: white; 
+                        
+                    
+                    }
+                }
+            }
+    
+            article:nth-child(2) {
+                height: 30vh;
+                background: none;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start; 
+                margin-left: 30px;
+    
+                div {
+                    width: 100%;
+                    height: 100px;
+                    background: none;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    flex-direction: column; 
+                    padding-left: 20px;
+    
+                    span {
+
+                        font-family: hoss-round, sans-serif;
+                        src: url("https://use.typekit.net/mph5npf.css");
+                        font-weight: 700;
+                        font-style: normal;
+
+                        
+                        
+                        font-size: 25px;
+                        
+                        color: white; 
+                    }
+                    
+                    p {
+                        font-family: hoss-round, sans-serif;
+                        src: url("https://use.typekit.net/mph5npf.css");
+                        font-weight: 400;
+                        font-style: normal;
+
+                        
+                        
+                        font-size: 16px;
+                        
+                        color: white; 
+                    }
+                }
+            }
+        }
+
+
+        #app2 {
+            width: 30%;
+            height: 100%;
+            background: none;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            video{
+                margin-bottom: 20px;
+
+            }
+    
+        
+        }
+
+
+
+        #app3 {
+            width: 35%;
+            height: 100%;
+            background: none;
+            float: left;
+            margin-top: 140px; 
+           
+    
+            img {
+                width: 10%;
+            }
+    
+            article:nth-child(1) {
+                width: 100%;
+                height: 30vh;
+                background: none;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start; 
+    
+                div {
+                    width: 75%;
+                    height: 100px;
+                    background: none;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    flex-direction: column; 
+                    padding-left: 20px;
+    
+                    span {
+                        font-family: hoss-round, sans-serif;
+                        src: url("https://use.typekit.net/mph5npf.css");
+                        font-weight: 700;
+                        font-style: normal;
+
+                        
+                        font-size: 25px;
+                        
+                        color: white; 
+                    }
+    
+                    p {
+                        font-family: hoss-round, sans-serif;
+                        src: url("https://use.typekit.net/mph5npf.css");
+                        font-weight: 400;
+                        font-style: normal;
+
+                        
+                        font-size: 16px;
+                        
+                        color: white; 
+                    }
+                }
+                
+            }
+    
+            article:nth-child(2) {
+                width: 100%;
+                height: 30vh;
+                background: none;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                
+                div {
+                    width: 75%;
+                    height: 100px;
+                    background: none;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    flex-direction: column; 
+                    padding-left: 20px;
+    
+                    span {
+                        font-family: hoss-round, sans-serif;
+                        src: url("https://use.typekit.net/mph5npf.css");
+                        font-weight: 700;
+                        font-style: normal;
+
+                        
+                        font-size: 25px;
+                        
+                        color: white; 
+                    }
+    
+                    p {
+                        font-family: hoss-round, sans-serif;
+                        src: url("https://use.typekit.net/mph5npf.css");
+                        font-weight: 400;
+                        font-style: normal;
+
+                        
+                        font-size: 16px;
+                        
+                        color: white; 
+                       
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+
+
+}

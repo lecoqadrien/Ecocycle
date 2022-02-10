@@ -1,0 +1,43 @@
+#funequipe {
+    article:nth-child(1) {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        background: none;
+        margin-top: 50px; 
+        margin-left: 34px;
+
+        
+    }
+
+    article:nth-child(2) {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        margin-right: 100px;
+        padding-left: 20px;
+        
+        h2 {
+            font-family: hoss-round, sans-serif;
+            src: url("https://use.typekit.net/mph5npf.css");
+            font-style: normal;
+            font-weight: 600 ;
+            font-size: 30px;
+            color: #FFFFFF; 
+        }
+    
+        p {
+            font-family: hoss-round, sans-serif;
+            src: url("https://use.typekit.net/mph5npf.css");
+            font-weight: 300;
+            font-style: normal;
+            
+
+            
+            font-size: 20px;
+            color: #FFFFFF; 
+        }
+    }
+}

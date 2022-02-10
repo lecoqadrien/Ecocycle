@@ -1,0 +1,92 @@
+#informations {
+    h4 {
+        font-family: hoss-round, sans-serif;
+    src: url("https://use.typekit.net/tbd8ilh.css");
+    font-family: hoss-round, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-align: center; 
+    }
+
+    h6{
+        font-family: hoss-round, sans-serif;
+        src: url("https://use.typekit.net/tbd8ilh.css");
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        
+        color: $bluevert;
+        text-align: center;
+    }
+
+    article {
+        margin: 0 auto;
+        height: 80vh;
+        width: 40%;
+        background: white;
+        display: flex;
+        align-items: center;
+        box-shadow: -1px 2px 5px 1px rgba(94, 94, 94, 0.7);
+        border-radius: 20px; 
+
+        form {
+            height: 95%;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            background: none; 
+            align-items: center;
+            flex-direction: column;
+
+            label {
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/tbd8ilh.css");
+                font-family: hoss-round, sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                width: 100%;
+                float: left;
+                margin-bottom: 10px;
+                color: #464646;
+            }
+
+            input {
+                height: 40px;
+                width: 100%;
+                float: left;
+                margin-bottom: 30px;
+                box-shadow: -1px 2px 5px 1px rgba(94, 94, 94, 0.7);
+                border: none;
+                border-radius: 10px;
+                padding-left: 10px; 
+            }
+
+            button {
+                float: left;
+                width: 200px;
+                height: 50px;
+                background: #F0143E;
+                font-family: Hoss Round;
+                text-decoration: none;
+                border-radius: 30px;
+                box-shadow: none;
+                border: none; 
+                color: #FFFFFF;
+                cursor: pointer;
+                font-family: hoss-round, sans-serif;
+                src: url("https://use.typekit.net/tbd8ilh.css");
+                font-family: hoss-round, sans-serif;
+                font-weight: 400;
+
+                &:hover{
+                    background: #FFFFFF;
+                    color: #F0143E;
+                    border: 1px solid #F0143E;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,112 @@
+#team 
+    {
+    h3 {
+        src: url("https://use.typekit.net/mph5npf.css");
+        font-family: omnes-semicond, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 42px;
+        padding-top: 50px;
+        color: #F0143E;
+        text-align: center; 
+    }
+
+    .profil {
+       
+       
+        display: block;
+        margin-top: 30px;
+
+        .team_picto{
+            position: absolute;
+            left: 540px;
+            top: 1200px;
+        }
+         
+    }
+
+    img{
+        margin: 0 auto;
+        width: 230px;
+    }
+
+    article {
+        width: 50%;
+        height: 60vh;
+        background: none;
+        border: 2px solid none;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+
+    article:nth-child(4){
+        padding-top: 30px;
+    }
+
+   
+
+    h4 {
+        font-family: Omnes Boldery;
+        font-size: 40px;
+        font-weight: bold; 
+        color: #F0143E;
+        ;
+    }
+
+    h5 {
+        font-family: hoss-round, sans-serif;
+        src: url("https://use.typekit.net/mph5npf.css");
+        font-weight: 400;
+        font-style: normal;
+        
+
+        
+        font-size: 20px;
+       
+        color: $bluevert; 
+    }
+
+    p {
+        font-family: hoss-round, sans-serif;
+        src: url("https://use.typekit.net/mph5npf.css");
+        font-weight: 400;
+        font-style: normal;
+
+        
+        font-size: 20px;
+        
+        width: 70%;
+        color: #464646; 
+    }
+
+    .image_adrien_thomas {
+        position: relative;
+        top: 50px;
+        right: 150px; 
+       
+        
+    }
+
+    .image_thomas{
+        position: relative;
+        top: 100px;
+        right: 150px; 
+        
+       
+        
+    }
+
+    .image_alexis_ludovic{
+        position: relative;
+        top: 50px;
+        left: 150px; 
+    }
+}
+
+#footerteam{
+    margin-top: 34vh;
+    background: $bluevert;
+  }
